@@ -1,0 +1,61 @@
+/*
+Theme name: egober
+Version: 1.0
+Description: SinglePage Wordpress
+Author: Ayrton Bolanos
+Author URI: https://github.com/devllacroix
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+
+*/
+.bg-gray{
+    background-color: #d0d8cf;
+}
+
+.contacto p{
+    text-decoration: overline;
+}
+
+.portada{
+    background-image: url("./assets/img/fondo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banda-1{
+    background-color: #153b0d;
+    color: white;
+}
+
+.titulo{
+    margin-top: 40vh;
+}
+
+h1{
+    font-weight: 700;
+}
+
+h2{
+    font-weight: 700;
+}
+
+.banda-2 h2{
+    color: #153b0d;
+}
+
+.contacto h2{
+    color: #153b0d;
+    font-weight: 700;
+}
+
+.banda-3{
+    background: #153b0d;
+}
+
+.banda-3 h2{
+    color: white;
+}
+
+.contacto #logo{
+    width: 200px;
+}
