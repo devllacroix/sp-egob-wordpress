@@ -14,8 +14,7 @@
             <div class="col-11 col-md-7 text-center">
                 <img src="
                 <?php echo get_template_directory_uri()?>/assets/img/logo.png" class="img-fluid" style="width: 300px;">
-                <p class="fs-5 fs-lg-4 text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p class="fs-5 fs-lg-4 text-center mt-4">Opera tres ambientes de trabajo alternativos, en los que tanto funcionarios y servidores púbicos como la ciudadanía podrán integrar, actualizar y someter a consulta pública y evaluación de calidad el Catálogo de regulaciones, trámites y servicios y el sistema de Gobernanza Regulatoria.</p>
             </div>
         </div>
 
