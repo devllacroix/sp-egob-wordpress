@@ -13,7 +13,8 @@
         <section class="container">
         <div class="row justify-content-center mt-5">
             <div class="col-11 col-md-9 text-center">
-                <img src="assets/img/logo.png" class="img-fluid" style="width: 300px;">
+                <img src="
+                <?php echo get_template_directory_uri()?>/assets/img/logo.png" class="img-fluid" style="width: 300px;">
                 <p class="fs-5 fs-lg-4 text-center mt-5">Es una plataforma escalable que facilita la implementación y
                     seguimiento de programas
                     específicos de mejora regulatoria, alinea la realización de regulaciones, trámites y servicios;
@@ -115,6 +116,7 @@
                         <div class="card-body d-flex align-items-center justify-content-center">
                             <section>
                                 <img src="
+                                
                                 <?php echo get_template_directory_uri()?>/assets/img/22.png" width="60px">
                                 <h5 class="card-title fs-3 mt-3">Ventanilla única empresarial</h5>
                             </section>
@@ -182,16 +184,20 @@
             </div>
             <div class="row justify-content-evenly align-items-center mt-4">
                 <div class="col-12 col-sm-6 col-md-3 mt-5 mt-md-4 text-center">
-                    <img src="/assets/img/logoasti.png" class="img-fluid" width="150px">
+                    <img src="
+                    <?php echo get_template_directory_uri()?>/assets/img/logoasti.png" class="img-fluid" width="150px">
                 </div>
                 <div class="col-12 col-sm-6 col-md-3 mt-5 mt-md-4 text-center">
-                    <img src="/assets/img/logorodas.png" class="img-fluid" width="200px">
+                    <img src="
+                    <?php echo get_template_directory_uri()?>/assets/img/logorodas.png" class="img-fluid" width="200px">
                 </div>
                 <div class="col-12 col-sm-6 col-md-3 mt-5 mt-md-4 text-center">
-                    <img src="/assets/img/logorgsol.png" class="img-fluid" width="200px">
+                    <img src="
+                    <?php echo get_template_directory_uri()?>/assets/img/logorgsol.png" class="img-fluid" width="200px">
                 </div>
                 <div class="col-12 col-sm-6 col-md-3 mt-5 mt-md-4 text-center">
-                    <img src="/assets/img/logosos.png" class="img-fluid" width="200px">
+                    <img src="
+                    <?php echo get_template_directory_uri()?>/assets/img/logosos.png" class="img-fluid" width="200px">
                 </div>
             </div>
         </div>
