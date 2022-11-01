@@ -1,23 +1,30 @@
 <?php get_header(); ?>
 
-    <div class="row vh-100 p-0 m-0 portada">
-            <div class="container">
-                <div class="offset-2 col-4 titulo">
-                    <p class="text-uppercase m-0 p-0 fs-4" id="inicio">A tu alcance</p>
-                    <h1 class="text-uppercase m-0 p-0 fs-1">Proyecto Tecnológico</h1>
+    <div class="row p-0 m-0 portada">
+        <div class="container d-flex flex-column justify-content-center">
+            <div class="row d-flex flex-column ms-sm-4 ms-lg-0">
+                <div class="col-12 col-md-8 text-lg-start">
+                    <h2 class=" offset-lg-1 text-green">Por trámites y servicios fáciles, rápidos y transparentes.</h2>
                 </div>
             </div>
         </div>
+    </div>
     
-    <section class="container">
+        <section class="container">
         <div class="row justify-content-center mt-5">
-            <div class="col-11 col-md-7 text-center">
-                <img src="
-                <?php echo get_template_directory_uri()?>/assets/img/logo.png" class="img-fluid" style="width: 300px;">
-                <p class="fs-5 fs-lg-4 text-center mt-4">Opera tres ambientes de trabajo alternativos, en los que tanto funcionarios y servidores púbicos como la ciudadanía podrán integrar, actualizar y someter a consulta pública y evaluación de calidad el Catálogo de regulaciones, trámites y servicios y el sistema de Gobernanza Regulatoria.</p>
+            <div class="col-11 col-md-9 text-center">
+                <img src="/img/logo.png" class="img-fluid" style="width: 300px;">
+                <p class="fs-5 fs-lg-4 text-center mt-5">Es una plataforma escalable que facilita la implementación y
+                    seguimiento de programas
+                    específicos de mejora regulatoria, alinea la realización de regulaciones, trámites y servicios;
+                    y otros elementos a la Ley general de mejora regulatoria (LGMR), sin necesidad de que el
+                    funcionario público tenga que especializarse en artículos de esta ley.</p>
+                <p class="fs-5 fs-lg-4 text-center mt-4">
+                    Cuenta con 5 módulos principales, en los que las y los funcionarios, servidores públicos y
+                    la ciudadanía podrán: Integrar, actualizar y someter a consulta.
+                </p>
             </div>
         </div>
-
     </section>
 
     <!--Banda 1-->
@@ -174,13 +181,17 @@
                 </div>
             </div>
             <div class="row justify-content-evenly align-items-center mt-4">
-                <div class="col-12 col-md-4 mt-5 mt-md-4 text-center">
-                    <img src="
-                    <?php echo get_template_directory_uri()?>/assets/img/logoasti.png" class="img-fluid" width="150px">
+                <div class="col-12 col-sm-6 col-md-3 mt-5 mt-md-4 text-center">
+                    <img src="img/logoasti.png" class="img-fluid" width="150px">
                 </div>
-                <div class="col-12 col-md-4 mt-5 mt-md-4 text-center">
-                    <img src="
-                    <?php echo get_template_directory_uri()?>/assets/img/logorodas.png" class="img-fluid" width="200px">
+                <div class="col-12 col-sm-6 col-md-3 mt-5 mt-md-4 text-center">
+                    <img src="img/logorodas.png" class="img-fluid" width="200px">
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mt-5 mt-md-4 text-center">
+                    <img src="img/logorgsol.png" class="img-fluid" width="200px">
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mt-5 mt-md-4 text-center">
+                    <img src="img/logosos.png" class="img-fluid" width="200px">
                 </div>
             </div>
         </div>
